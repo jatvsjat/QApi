@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+define('PROJECT_PATH',getcwd().DIRECTORY_SEPARATOR);
+require 'vendor/autoload.php';
+$Command = new \QApi\Command();
+$Command->execute();
